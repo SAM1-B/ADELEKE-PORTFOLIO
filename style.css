@@ -1,0 +1,432 @@
+body{}
+
+.hero{
+    background-image: url(img/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:darken ;
+    background-color: rgb(255, 0, 76);
+    height: inherit;  
+    transition: all .3s ease;
+}
+.heroVid{
+    background: rgb(255, 243, 195);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hide1,.hide2,.hide3,.hide4{
+    display: none;
+}
+
+.groupMid{
+    display: flex;
+}
+.groupMid a{
+    color: white;
+    text-decoration: none;
+}
+.groupMid a:hover{
+    color: rgb(247, 218, 28);
+}
+
+.samImg{
+    width: 80%;
+   
+}
+
+.wrap{
+    height: inherit;
+    background-color:rgb(9, 3, 41);
+    background-image: url(img/1.jpg);
+    background-blend-mode: saturation;
+    background-size: cover;
+    width: 75%;
+    margin: 0 auto;
+}
+.heroGrp{
+    z-index: 1000px;
+}
+.skillsButtons{
+    background: rgb(243, 204, 8);
+    transition: all .3s ease;
+}
+.skillsButtons:hover{
+  background:red;
+}
+
+/* FLYING BOXES */
+.flyingBoxes{
+    display: flex;
+    margin-top: -60px;
+   
+}
+.flyingBoxes div{
+    
+    width: 100px;
+    height: 50px;
+    border-radius: 80%;
+    background-color: rgb(143, 104, 6);
+}
+.work{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.use1{
+    position: absolute;
+    width: 40%;
+    margin: 0 auto;
+    animation-name: use1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-duration: 3s;
+   }
+   @keyframes use1{
+        from{
+            transform: scale(20%);
+        }
+        to{
+            transform: scale(150%);
+            transform: translateX(300px);
+           margin-top: -360px;
+        }
+   }
+
+
+
+/* FLYING BOXES */
+.fly1{
+    
+    animation-name: fly1;
+    animation-duration: 30s ;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+.fly3{
+    
+    animation-name: fly1;
+    animation-duration: 30s ;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;}
+
+.fly2{
+    
+     animation-name: fly1;
+     animation-duration: 30s ;
+     animation-delay: 3s;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+     animation-fill-mode: forwards;
+    }
+
+    .fly4{
+    
+        animation-name: fly1;
+        animation-duration: 30s ;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly5{
+    
+        animation-name: fly1;
+        animation-duration: 30s ;
+        animation-delay: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly6{
+    
+        animation-name: fly1;
+        animation-duration: 30s ;
+        animation-delay: 20s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly7{
+    
+        animation-name: fly1;
+        animation-duration: 30s ;
+        animation-delay: 15s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly8{
+    
+        animation-name: fly1;
+        animation-duration: 30s ;
+        animation-delay: 20s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly9{
+    
+        animation-name: fly1;
+        animation-duration: 30s ;
+        animation-delay: 25s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly10{
+    
+        animation-name: fly1;
+        animation-duration: 50s ;
+        animation-delay: 30s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly11{
+    
+        animation-name: fly1;
+        animation-duration: 30s ;
+        animation-delay: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly12{
+    
+        animation-name: fly1;
+        animation-duration: 30s ;
+        animation-delay: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly13{
+    
+        animation-name: fly1;
+        animation-duration: 30s ;
+        animation-delay: 15s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly14{
+    
+        animation-name: fly1;
+        animation-duration: 30s ;
+        animation-delay: 25s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly15{
+    
+        animation-name: fly1;
+        animation-duration: 30s ;
+        animation-delay: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly16{
+    
+        animation-name: fly1;
+        animation-duration: 30s ;
+        animation-delay: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly17{
+    
+        animation-name: fly1;
+        animation-duration: 30s ;
+        animation-delay: 20s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly18{
+    
+        animation-name: fly1;
+        animation-duration: 30s ;
+        animation-delay: 30s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly19{
+    
+        animation-name: fly1;
+        animation-duration: 50s ;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+       .fly20{
+    
+        animation-name: fly1;
+        animation-duration: 50s ;
+        animation-delay: 35s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       }
+
+
+@keyframes fly1 {
+    0%{
+        transform: translateY(0px);
+        background-color: rgba(255, 255, 218, 0.168);
+        opacity: 0.1;
+    }
+    20%{
+        transform: rotate(360deg);
+        animation-play-state: running;
+        animation-timing-function: ease-in;
+        animation-iteration-count: infinite;
+    }
+   
+    100%{
+        transform: translateY(200vh);
+        background-color: rgba(255, 255, 218, 0.168);
+    }
+}
+
+
+
+/* SEARCH PROJECT */
+.searchImg{
+    background: rgb(255, 253, 239);
+    transition: all .3s ease-in;
+}
+.searchImg:hover{
+    background: rgb(243, 193, 125);
+    color: black;
+   
+}
+footer{
+    background-color: rgb(10, 1, 29);
+    background-size: inherit;
+    background-repeat: no-repeat;
+ }
+
+.socialMedia a{
+margin: 20px;
+
+}
+.navigationLinks a{
+    margin: 30px;
+}
+.navigationLinks a{
+    color: white;
+}
+.navigationLinks a:hover{
+    color: rgb(222, 197, 8);
+}
+
+
+
+
+/* ABOUT PAGE */
+.wrapBody{
+    height: 100vh;
+    background-color: rgb(11, 0, 44);
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.setAccordio{
+    align-items: center;
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 70px;
+    
+}
+.accordion-body{
+    overflow-y: scroll;
+    height: 200px;
+}
+
+/* STYLE NAV */
+.StyleNav{
+    color: rgb(246, 157, 14);
+}
+
+
+
+/* .mobileback{
+           
+            background-size: cover;
+            background: rgb(241, 202, 6);
+            background-image: url(img/1BDW_6843.png);
+            background-repeat: no-repeat;
+            background-blend-mode: darken;
+            
+        } */
+
+
+
+
+
+/* MEDIA QUERY SECTION */
+@media(max-width:544px){
+    .groupMid{
+        display: none;
+    }
+    .hide1,.hide2,.hide3,.hide4{
+        display: block;
+    }
+    .flipOff{
+        display: none;
+    }
+    .samImg{
+        width: 100%;
+    }
+    .wrap{
+        width: 100%;
+    }
+
+    .sizeForMobile{
+        margin-top: 100px;
+    }
+    .use1{
+        position: sticky;
+        width: 100%;
+        margin: 0 auto;
+        animation-name: use1;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        animation-play-state: running;
+        animation-duration: 3s;
+       }
+       @keyframes use1{
+            from{
+                transform: skew(45deg);
+            }
+            to{
+                transform: skew(50deg);
+                transform: translateX(0px);
+            }
+       }
+       .wrapBody{
+        height: inherit;
+        background-color: rgb(11, 0, 44);
+        padding-bottom: 70px;
+    }
+   
+
+    
+}
